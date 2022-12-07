@@ -1,7 +1,7 @@
 package org.crucial.executor;
 
 public class Config {
-    public static final String CONFIG_FILE = "config.properties";
+    public static final String CONFIG_FILE = "config.properties.tmpl";
 
     public static final String AWS_LAMBDA_LOGGING= "logging";
     public static final String AWS_LAMBDA_LOGGING_DEFAULT= "false";

@@ -3,6 +3,7 @@
 
     <groupId>org.crucial</groupId>
     <artifactId>executor</artifactId>
+	<packaging>jar</packaging>
     <name>executor</name>
     <version>2.0</version>
     <description>An executor service for serverless.</description>

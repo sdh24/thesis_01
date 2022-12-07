@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>dso-client</artifactId>
+    <packaging>jar</packaging>
     <name>dso-client</name>
     <description>Client side of the DSO datastore.</description>
 
@@ -23,6 +24,8 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>dso-core</artifactId>
             <version>${project.version}</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/lib/dso-core-2.0.jar</systemPath>
         </dependency>
 
         <dependency>

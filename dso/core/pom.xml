@@ -9,6 +9,7 @@
     </parent>
 
     <artifactId>dso-core</artifactId>
+    <packaging>jar</packaging>
     <name>dso-core</name>
     <description>Core components of the DSO datastore.</description>
 
