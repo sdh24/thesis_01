@@ -48,12 +48,24 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>dso-client</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/dso-client-2.0.jar</systemPath>
+            <version>2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>dso-core</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/dso-core-2.0.jar</systemPath>
             <version>2.0</version>
         </dependency>
 
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>executor</artifactId>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/executor-2.0.jar</systemPath>
             <version>2.0</version>
         </dependency>
 
