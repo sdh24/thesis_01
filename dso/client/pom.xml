@@ -66,6 +66,12 @@
             <scope>test</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.infinispan</groupId>
+            <artifactId>infinispan-commons</artifactId>
+            <version>${version.infinispan}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
